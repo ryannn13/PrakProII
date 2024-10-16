@@ -1,4 +1,4 @@
-package tugas02;
+package pertemuan2;
 
 import java.awt.event.*;
 import javax.swing.*;

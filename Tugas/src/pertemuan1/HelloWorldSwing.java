@@ -1,4 +1,4 @@
-package tugas01;
+package pertemuan1;
 import javax.swing.*;
 
 public class HelloWorldSwing {
