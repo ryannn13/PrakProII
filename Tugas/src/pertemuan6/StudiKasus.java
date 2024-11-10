@@ -68,9 +68,9 @@ public class StudiKasus extends JFrame {
         txtAlamat = new JTextArea(3, 20);
         JScrollPane scrollAlamat = new JScrollPane(txtAlamat);
         gbc.gridx = 1;
-        gbc.gridheight = 3; // Merge with next 2 rows
+        gbc.gridheight = 3;
         inputPanel.add(scrollAlamat, gbc);
-        gbc.gridheight = 1; // Reset grid height
+        gbc.gridheight = 1;
 
         gbc.gridx = 0;
         gbc.gridy = 4;
