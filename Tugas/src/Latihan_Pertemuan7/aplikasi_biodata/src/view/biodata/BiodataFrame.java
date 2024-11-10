@@ -25,7 +25,7 @@ public class BiodataFrame extends JFrame {
         this.tempatLahirList = this.tempatLahirDao.findAll();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setTitle("Biodata Management");
+        this.setTitle("Aplikasi Biodata");
         this.setLayout(null);
         this.setSize(600, 500);
 
@@ -137,9 +137,5 @@ public class BiodataFrame extends JFrame {
 
     public void showAlert(String message) {
         JOptionPane.showMessageDialog(this, message);
-    }
-
-    public void addBiodata(Biodata biodata) {
-        throw new UnsupportedOperationException("Unimplemented method 'addBiodata'");
     }
 }
